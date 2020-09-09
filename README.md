@@ -1,1 +1,1 @@
-# StandCPrep
+# StandCPrep coding practices
