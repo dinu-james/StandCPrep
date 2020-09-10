@@ -13,4 +13,21 @@ public class Controller {
     {
         return "Hello - Testing ! DKJ";
     }
+    @GetMapping(path="/home")
+    public String home()
+    {
+        return "Welcome";
+    }
+
+    @GetMapping(path="/user")
+    public String user()
+    {
+        return "Hello - User";
+    }
+
+    @GetMapping(path="/admin")
+    public String admin()
+    {
+        return "Hello - Admin";
+    }
 }
